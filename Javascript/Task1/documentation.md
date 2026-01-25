@@ -23,7 +23,10 @@ copy by reference like (object,array,function)
 > by js >> undefined
 
 #### Operators
-easy
+> == compare value
+
+> === compare value and type
+
 #### Number Method
 toString()
 toFixed()
