@@ -12,25 +12,13 @@ same path (reverse) 8. Frontend displays result
 Converts domain names like google.com into IP addresses.
 ## HTTP Request Structure
 Method | URL | Headers | Body (optional) | ## Query Parameters
-HTTP Methods
-GET /users
-POST /users
-{
-"name": "Shams",
-"email": "shams@gmail.com"
-}
-PUT /users/1
-{
-"name": "New Name",
-"email": "new@gmail.com"
-}
-PATCH /users/1
-{
-"name": "New Name"
-}
-DELETE /users/1
-ParametersPath: /users/1
-Query: /users?page=2&limit=10
+## HTTP Methods
+GET → Retrieve data
+POST → Create/add data
+PUT → Update all data
+PATCH → Update part of data
+DELETE → Remove data
+OPTIONS / HEAD → Get server info
 ## TCP vs UDP
 TCP: reliable, ordered, slower (used in web & APIs)
 UDP: faster, no guarantee (used in games & streaming)
